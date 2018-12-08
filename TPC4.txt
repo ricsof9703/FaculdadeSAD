@@ -67,19 +67,4 @@ print('==============================')
 print("score_train:", score_train)
 print("score_test:", score_test)
 print('==============================')
-
-#f test set de instâncias mal bem classificadas 
-def classificar():
-  
-  valores = []
-  for i in digits.target:
-    if prever.all() != digits.target[i]: #comparar os valores das labels de previsão do test set, com o valores das features        
-      valores.append(i)
-      
-  #return valores
-  print('instâncias mal bem classificadas ',valores)
-    
-    
-classificar()
-    
     
